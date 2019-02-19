@@ -1,0 +1,78 @@
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background-color: blue;
+  padding: 30px;
+}
+
+.container {
+  max-width: 50%;
+}
+
+.gore, .dole {
+  display: flex;
+}
+
+.gore {
+  padding: 20px 0 30px;
+  color: white;
+  background-color: lightblue;
+  
+}
+
+.dole h6 {
+  color: gray;
+  margin-bottom: 0px;
+}
+
+.gore h1 {
+  font-size: 25px;
+}
+
+.leva {
+  flex-basis: 20%;
+}
+
+.desna {
+  flex-basis: 80%;
+}
+
+.dole {
+  padding-top: 20px;
+  padding-right: 15px;
+  color: gray;
+  background-color: white;
+}
+
+label {
+  font-size: 12px;
+}
+
+.lbl-check {
+  color: grey;
+}
+
+input[type=text], input[type=email] {
+  background-color: white;
+  display: block;
+  border-width: 0px;
+  width: 100%;
+  border-radius: 0px;
+
+}
+
+hr {
+  width: 100%;
+  margin: 8px 0 30px;
+}
+
+::placeholder { 
+  color: gray;
+  opacity: 1;
+}
+
+input[type=checkbox] {
+  margin-right: 12px;
+}
