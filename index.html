@@ -23,11 +23,11 @@
 </head>
 
 <body>
-    <div class="container">
+   <div class="container">
     <form>
         <div class="gore">
             <div class="leva">
-
+                <div id="procenat">0%</div>
             </div>
             <div class="desna">
                 <h6>New York State</h6>
@@ -36,18 +36,31 @@
         </div>
         <div class="dole">
             <div class="leva">
-
+                <div class="form" id="form1">1</div>
+                <img src="images/loading.gif" alt="Loading1" id="loading1">
+                <div class="form" id="form2">2</div>
+                <img src="images/loading.gif" alt="Loading2" id="loading2">
+                <div class="form" id="form3">3</div>
+                <img src="images/loading.gif" alt="Loading3" id="loading3">
+                <div class="form" id="form4">4</div>
+                <img src="images/loading.gif" alt="Loading4" id="loading4">
             </div>
             <div class="desna">
-                <label for="name">First Name</label>
-                <input type="text" id="name" placeholder="First Name">
+                <div class="input-container">
+                <label for="name" class="ph-label">First Name</label>
+                <input type="text" id="name" placeholder="First Name" onfocus="this.placeholder=''">
                 <hr>
-                <label for="surname">Last Name</label>
-                <input type="text" id="surname" placeholder="Last Name">
+                </div>
+                <div class="input-container">
+                <label for="surname" class="ph-label">Last Name</label>
+                <input type="text" id="surname" placeholder="Last Name" onfocus="this.placeholder=''">
                 <hr>
-                <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="Email Address">
+                </div>
+                <div class="input-container">
+                <label for="email" class="ph-label">Email Address</label>
+                <input type="email" id="email" placeholder="Email Address" onfocus="this.placeholder=''">
                 <hr>
+                </div>
                 <p>What is the best time to contact you?</p>
                 <input type="checkbox" name="contact-time" value="monday" id="check-monday">
                 <label for="check-monday" class="lbl-check">Monday 3pm</label><br>
@@ -56,7 +69,7 @@
             </div>
         </div>
     </form>
-</div>
+           
     <script src="js/main.js"></script>
 </body>
 
